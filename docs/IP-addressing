@@ -1,114 +1,41 @@
-| **Fort Myers, FL (Head Office)** | 192.168.0.0/22
+# IP Addressing Scheme
 
-255.255.252.0 | VLAN 10- 192.168.0.0/25
+## Fort Myers, FL (Headquarters)
+| VLAN | Purpose | Subnet | Gateway |
+|------|---------|--------|---------|
+| 10 | Workstations | 192.168.0.0/25 | 192.168.0.1 |
+| 20 | Servers | 192.168.0.128/25 | 192.168.0.129 |
+| 30 | VoIP | 192.168.1.0/25 | 192.168.1.1 |
+| 40 | Mobile/Wi-Fi | 192.168.1.128/25 | 192.168.1.129 |
+| 50 | Printers | 192.168.2.0/27 | 192.168.2.1 |
+| 60 | Remote Users | 192.168.2.128/25 | 192.168.2.129 |
+| 70 | Access Points | 192.168.2.32/27 | 192.168.2.33 |
 
-VLAN 20-192.168.0.128/25
+## Dallas, TX (Warm Site)
+| VLAN | Purpose | Subnet | Gateway |
+|------|---------|--------|---------|
+| 10 | Workstations | 192.168.10.0/25 | 192.168.10.1 |
+| 20 | Servers | 192.168.10.128/25 | 192.168.10.129 |
+| 30 | VoIP | 192.168.11.0/25 | 192.168.11.1 |
+| 40 | Mobile/Wi-Fi | 192.168.11.128/25 | 192.168.11.129 |
+| 50 | Printers | 192.168.12.0/27 | 192.168.12.1 |
+| 60 | Remote Users | 192.168.12.128/25 | 192.168.12.129 |
+| 70 | Access Points | 192.168.12.32/27 | 192.168.12.33 |
 
-VLAN 30-192.168.1.0/25
+## Seattle, WA
+| VLAN | Purpose | Subnet | Gateway |
+|------|---------|--------|---------|
+| 10 | Workstations | 192.168.20.0/25 | 192.168.20.1 |
+| 20 | VoIP | 192.168.20.128/25 | 192.168.20.129 |
+| 30 | Mobile/Wi-Fi | 192.168.21.0/25 | 192.168.21.1 |
+| 40 | Printers | 192.168.21.128/27 | 192.168.21.129 |
+| 50 | Access Points | 192.168.21.160/27 | 192.168.21.161 |
 
-VLAN 40-192.168.1.128/25
-
-VLAN 50-192.168.2.0/27
-
-VLAN 60-192.168.2.128/25
-
-VLAN 70-
-
-192.168.2.32/27 | VLAN 10-
-
-192.168.0.1
-
-VLAN 20-
-
-192.168.0.129
-
-VLAN 30-
-
-192.168.1.1
-
-VLAN 40-
-
-192.168.1.129
-
-VLAN 50-192.168.2.1
-
-VLAN 60-192.168.2.129
-
-VLAN 70-
-
-192.168.2.33 | HQ has pre-configured services such as network hardware, servers, clients, and others that require segmented VLANs |
-| **Dallas, TX (Warm Site)** | 192.168.10.0/22
-
-255.255.252.0 | VLAN 10- 192.168.10.0/25
-
-VLAN 20-192.168.10.128/25
-
-VLAN 30-192.168.11.0/25
-
-VLAN 40-192.168.11.128/25
-
-VLAN 50-192.168.12.0/27
-
-VLAN 60-192.168.12.128/25
-
-VLAN 70-
-
-192.168.12.32/27 | VLAN 10- 192.168.10.1
-
-VLAN 20-192.168.10.129
-
-VLAN 30-192.168.11.1
-
-VLAN 40-192.168.11.129
-
-VLAN 50-192.168.12.1
-
-VLAN 60-192.168.12.129
-
-VLAN 70-
-
-192.168.12.33 | This warm site will require the same services, network hardware, and servers as HQ with segmented VLANs |
-| **Seattle, WA** | 192.168.20.0/22
-
-255.255.252.0 | VLAN 10- 192.168.20.0/25
-
-VLAN 20-192.168.20.128/25
-
-VLAN 30-192.168.21.0/25
-
-VLAN 40-192.168.21.128/27
-
-VLAN 50-
-
-192.168.21.160/27 | VLAN 10- 192.168.20.1
-
-VLAN 20-192.168.20.129
-
-VLAN 30-192.168.21.1
-
-VLAN 40-192.168.21.129
-
-VLAN 50-
-
-192.168.21.161 | This is a branch site connected primarily to HQ and Dallas for redundancy with smaller subnet sizes for VLAN segmentation |
-| **Philadelphia, PA** | 192.168.30.0/22
-
-255.255.252.0 | VLAN 10- 192.168.30.0/25
-
-VLAN 20-192.168.30.128/25
-
-VLAN 30-192.168.31.0 /25
-
-VLAN 40-192.168.31.128/27
-
-VLAN 50-
-
-192.168.31.160/27 | VLAN 10- 192.168.30.1
-
-VLAN 20-192.168.30.129
-
-VLAN 30-192.168.31.1
-
-VLAN 40-192.168.31.129
-
-VLAN 50-192.168.32.161 | This is a branch site connected primarily to HQ and Dallas for redundancy with smaller subnet sizes for VLAN segmentation |
+## Philadelphia, PA
+| VLAN | Purpose | Subnet | Gateway |
+|------|---------|--------|---------|
+| 10 | Workstations | 192.168.30.0/25 | 192.168.30.1 |
+| 20 | VoIP | 192.168.30.128/25 | 192.168.30.129 |
+| 30 | Mobile/Wi-Fi | 192.168.31.0/25 | 192.168.31.1 |
+| 40 | Printers | 192.168.31.128/27 | 192.168.31.129 |
+| 50 | Access Points | 192.168.31.160/27 | 192.168.31.161 |
