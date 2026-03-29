@@ -56,7 +56,7 @@ Architected a scalable WAN infrastructure for ShopSmart Online's e-commerce expa
 - **VPN:** Full-mesh IPSec site-to-site with dual ISP failover
 - **Identity & Access:** Microsoft Active Directory, RADIUS Authentication
 - **Security Monitoring:** Microsoft Sentinel SIEM
-- **Services:** DNS, DHCP, VoIP (SIP/RTP), File Server, Database Server
+- **Services:** DNS, DHCP, VoIP, File Server, Database Server
 
 ---
 
