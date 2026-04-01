@@ -24,7 +24,7 @@ All sites use a centralized DHCP model with HQ as the primary server and Dallas 
 
 ---
 
-## Dallas, TX — Warm Site
+## Dallas, TX — Hot Site
 
 | VLAN | Purpose | Scope Range | Reservations |
 |------|---------|-------------|--------------|
