@@ -191,18 +191,6 @@ ShopSmart Online's SLA targets define the minimum acceptable performance standar
 
 ---
 
-## Quality Assurance & Testing
-
-All network configurations are validated across three environments before production deployment.
-
-### Testing Environments
-
-| Environment | Purpose | Tools |
-|------------|---------|-------|
-| Development | Logical routing, IP allocation, failover design | Cisco Packet Tracer |
-| Sandbox | Isolated connectivity and VPN testing | VirtualBox VMs |
-| Staging | Full system check against replica production environment | Cloned servers, sample data |
-
 ### Test Cases Summary
 
 | Test | Objective | Pass Criteria |
@@ -215,7 +203,3 @@ All network configurations are validated across three environments before produc
 | Server Connectivity | Verify user access to HQ and Dallas resources | All services reachable without errors |
 | Firewall Rule Enforcement | Confirm ACLs block unauthorized traffic | Only authorized ports open, suspicious traffic blocked |
 | Security Alerts | Verify IDPS and SIEM logging and alerting | Real-time alerts generated, all activity logged |
-
----
-
-*For full proposal documentation including detailed appendices, contact NeoNet Solutions.*
