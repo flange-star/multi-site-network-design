@@ -9,8 +9,7 @@
 - [Disaster Recovery Plan (DRP)](#disaster-recovery-plan-drp)
 - [Incident Response Plan (IRP)](#incident-response-plan-irp)
 - [Service Level Agreements (SLA)](#service-level-agreements-sla)
-- [Quality Assurance & Testing](#quality-assurance--testing)
-
+  
 ---
 
 ## Business Continuity Plan (BCP)
