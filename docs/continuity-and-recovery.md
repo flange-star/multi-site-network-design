@@ -176,7 +176,7 @@ ShopSmart Online's SLA targets define the minimum acceptable performance standar
 | Service | Target Uptime | Maximum Allowable Downtime |
 |---------|-------------|--------------------------|
 | Core network infrastructure | 99.99% (four nines) | ~52 minutes/year |
-| Cloud vendor services (Azure/ISP) | 99.99% (four nines) | ~52 minutes/year |
+| Cloud vendor services (Azure/Cisco) | 99.99% (four nines) | ~52 minutes/year |
 | Site-to-site VPN tunnels | 99.9% (three nines) | ~8.7 hours/year |
 | ISP failover recovery | < 1 minute | Per incident |
 | VPN failover recovery | < 3 minutes | Per incident |
