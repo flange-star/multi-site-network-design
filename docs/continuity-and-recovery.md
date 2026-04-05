@@ -1,6 +1,6 @@
 # Continuity & Recovery Documentation
 **ShopSmart Online — Network Expansion Project**  
-*NeoNet Solutions | IT Project Manager: GLO*
+*NeoNet Solutions | IT Project Manager: Angelo Cerdas*
 
 ---
 
@@ -189,7 +189,6 @@ ShopSmart Online's SLA targets define the minimum acceptable performance standar
 | VoIP jitter | < 30 ms |
 | VoIP packet loss | < 1% |
 
----
 
 ### Test Cases Summary
 
