@@ -31,7 +31,7 @@ Architected a scalable WAN infrastructure for ShopSmart Online's e-commerce expa
 | Site | Role | Network Block | VLANs |
 |------|------|---------------|-------|
 | Fort Myers, FL | Headquarters | 192.168.0.0/22 | 7 |
-| Dallas, TX | Warm Site | 192.168.10.0/22 | 7 |
+| Dallas, TX | Hot Site | 192.168.10.0/22 | 7 |
 | Seattle, WA | Branch Office | 192.168.20.0/22 | 5 |
 | Philadelphia, PA | Branch Office | 192.168.30.0/22 | 5 |
 
