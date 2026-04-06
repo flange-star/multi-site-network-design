@@ -3,7 +3,7 @@
 All sites use a centralized DHCP model with HQ as the primary server and Dallas as the secondary for redundancy. Branch offices (Seattle and Philadelphia) rely on HQ servers for DNS and DHCP services over the VPN.
 
 **Primary DHCP Server:** 192.168.0.134 (HQ AD/DNS/DHCP Server)  
-**Secondary DHCP Server:** 192.168.10.134 (Dallas RDOC Server)
+**Secondary DHCP Server:** 192.168.10.134 (Dallas RODC Server)
 
 **Primary DNS Server:** 192.168.0.134  
 **Secondary DNS Server:** 192.168.10.134
