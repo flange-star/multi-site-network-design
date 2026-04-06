@@ -41,7 +41,7 @@ ShopSmart Online implements strict firewall rules to provide security while allo
 
 ---
 
-## Dallas Office
+## Dallas Office (Warm Site)
 
 | Rule | Source Address | Source Port | Destination Address | Destination Port | Action | Direction |
 |------|----------------|-------------|---------------------|------------------|--------|-----------|
