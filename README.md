@@ -45,6 +45,7 @@ Architected a scalable WAN infrastructure for ShopSmart Online's e-commerce expa
 | [VLAN Breakdown](docs/vlan-breakdown.md) | VLAN IDs, subnets, and default gateways per site |
 | [DHCP Scopes](docs/dhcp-scopes.md) | DHCP scope ranges and reservations per site |
 | [Device List](docs/device-list.md) | Hardware and server inventory per site |
+| [Contingency Planning](docs/continuity-and-recovery.md) | BCP, DRP, IRP, & SLAs |
 
 ---
 
