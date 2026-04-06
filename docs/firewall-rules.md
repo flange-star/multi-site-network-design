@@ -37,7 +37,10 @@ ShopSmart Online implements strict firewall rules to provide security while allo
 | 27 | 192.0.2.20 (HQ Router/Firewall WAN IP) | Any | cloud-meraki-asn.amp/cisco.com, cloud-meraki-est.amp.cisco.com (Cisco Meraki Malware Protection) | 443 (TCP) | Allow | Outbound |
 | 28 | 192.0.2.20 (HQ Router/Firewall WAN IP) | Any | api.meraki.com (Cisco Meraki API Requests) | 443 (TCP) | Allow | Outbound |
 | 29 | 192.0.2.20 (HQ Router/Firewall WAN IP) | Any | 8.8.8.8/32, 158.115.128.0/19, 209.206.48.0/20, 216.157.128.0/20 (Cisco Meraki Cloud Monitor) | ICMP | Allow | Outbound |
-| 30 | Any | Any | Any | Any | Deny | All |
+| 30 | Any | Any | 192.0.2.20 (HQ Router/Firewall WAN IP) | 500 (UDP) | Allow | Inbound |
+| 31 | Any | Any | 192.0.2.20 (HQ Router/Firewall WAN IP) | 4500 (UDP) | Allow | Inbound |
+| 32 | Any | Any | 192.0.2.20 (HQ Router/Firewall WAN IP) | 1701 (UDP) | Allow | Inbound |
+| 33 | Any | Any | Any | Any | Deny | All |
 
 ---
 
@@ -74,6 +77,9 @@ ShopSmart Online implements strict firewall rules to provide security while allo
 | 27 | 198.51.100.40 (Dallas Router/Firewall WAN IP) | Any | cloud-meraki-asn.amp/cisco.com, cloud-meraki-est.amp.cisco.com (Cisco Meraki Malware Protection) | 443 (TCP) | Allow | Outbound |
 | 28 | 198.51.100.40 (Dallas Router/Firewall WAN IP) | Any | api.meraki.com (Cisco Meraki API Requests) | 443 (TCP) | Allow | Outbound |
 | 29 | 198.51.100.40 (Dallas Router/Firewall WAN IP) | Any | 8.8.8.8/32, 158.115.128.0/19, 209.206.48.0/20, 216.157.128.0/20 (Cisco Meraki Cloud Monitor) | ICMP | Allow | Outbound |
+| 30 | Any | Any | 198.51.100.40 (Dallas Router/Firewall WAN IP) | 500 (UDP) | Allow | Inbound |
+| 31 | Any | Any | 198.51.100.40 (Dallas Router/Firewall WAN IP) | 4500 (UDP) | Allow | Inbound |
+| 32 | Any | Any | 198.51.100.40 (Dallas Router/Firewall WAN IP) | 1701 (UDP) | Allow | Inbound |
 | 30 | Any | Any | Any | Any | Deny | All |
 
 ---
