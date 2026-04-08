@@ -16,8 +16,8 @@ Architected a scalable WAN infrastructure for ShopSmart Online's e-commerce expa
 
 ## What Was Built
 
-- Full-mesh site-to-site IPSec VPN connecting Fort Myers (HQ), Dallas, Seattle, and Philadelphia
-- Dual ISP failover at every site with LTE backup for remote users
+- Partial-mesh site-to-site IPSec VPN connecting Fort Myers (HQ), Dallas, Seattle, and Philadelphia
+- Dual ISP failover at HQ and Warm site with LTE backup for branch sites
 - VLAN segmentation across all locations for traffic isolation and security
 - Microsoft Sentinel SIEM deployed at each site for centralized threat monitoring
 - Cisco Meraki cloud-managed hardware across all four sites
@@ -54,9 +54,9 @@ Architected a scalable WAN infrastructure for ShopSmart Online's e-commerce expa
 - **Routing & Security:** Cisco Meraki MX (Router / Firewall / VPN Gateway / IDPS)
 - **Switching:** Cisco Meraki MS
 - **Wireless:** Cisco Meraki MR Access Points
-- **VPN:** Full-mesh IPSec site-to-site with dual ISP failover
+- **VPN:** Partial-mesh, IPSec site-to-site full tunnel with dual ISP failover
 - **Identity & Access:** Microsoft Active Directory, RADIUS Authentication
-- **Security Monitoring:** Microsoft Sentinel SIEM
+- **Security Monitoring:** Microsoft Sentinel SIEM, Snort IDPS
 - **Services:** DNS, DHCP, VoIP, File Server, Database Server
 
 ---
